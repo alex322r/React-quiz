@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Karla";
+    src: local("Karla"),
+     url("./fonts/Karla-VariableFont_wght.ttf") format("truetype");
+    font-weight: bold;
+   }
+
+   @font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("./fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+
+   }   
+   
