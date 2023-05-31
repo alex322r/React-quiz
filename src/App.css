@@ -5,8 +5,13 @@
   padding: 0;
 }
 
+#root {
+  width: 100%;
+}
+
 body {
   overflow: hidden;
+
 }
 
 .quiz-introPage {
@@ -18,9 +23,8 @@ body {
   align-items: center;
   text-align: center;
   color: #293264;
-  overflow: hidden;
-  border: black solid 1px;
-  min-width: 360px;
+  
+  min-height: 600px;
 }
 
 .quiz-title {
@@ -63,17 +67,17 @@ body {
   position: absolute;
   width: 70%;
   z-index: -99;
-  
 }
 
 .blob-top {
-  left: 70%;
-  top: 0;
-}
+  position: absolute;
+  left: 50%;
+  top: 30%;
+} 
 
 .blob-bottom {
-  right: 70%;
-  bottom: 0;
+  right: 50%;
+  bottom: 50%;
 }
 
 .question-page {
