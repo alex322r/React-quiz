@@ -9,7 +9,7 @@ export default function IntroPage({setStartQuiz}) {
                 <img src={BlobTopAnimation} alt="" />
             </div>
             
-            <h1 className="quiz-title">Quizzical</h1>
+            <h1 className="quiz-title">Quizzical by Alexis Rodriguez</h1>
             <p className="quiz-description">Test your knowledge with this quiz</p>
             <button onClick={() => setStartQuiz(true)} className="quiz-startButton">Start Quiz</button>
             <div className="blob blob-bottom">
